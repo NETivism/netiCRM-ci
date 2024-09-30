@@ -1,4 +1,4 @@
-FROM ghcr.io/netivism/docker-debian-php:8.2
+FROM ghcr.io/netivism/docker-debian-php:8.3
 MAINTAINER Jimmy Huang <jimmy@netivism.com.tw>
 
 ### ci tools
@@ -35,7 +35,7 @@ RUN \
 
 # cgi
 RUN \
-  apt-get install -y php8.2-cgi net-tools
+  apt-get install -y php8.3-cgi net-tools
 
 # purge
 RUN \
